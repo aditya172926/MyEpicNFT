@@ -42,7 +42,7 @@ contract MyEpicNFT is ERC721URIStorage {
         // identifier along with the data associated w/ that unique identifier. 
         // It's literally us setting the actual data that makes the NFT valuable. 
         // In this case, we're setting it as "blah" which....isn't that valuable ;).
-        _setTokenURI(newItemId, "INSERT_YOUR_JSON_URL_HERE");
+        _setTokenURI(newItemId, "https://jsonkeeper.com/b/LEC1");
         console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
 
         // The tokenURI is where the actual NFT data lives. 
